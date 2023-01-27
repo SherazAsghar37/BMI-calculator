@@ -16,7 +16,7 @@ class BMICalculation {
   String getResult() {
     if (cal >= 25) {
       return "Overweight";
-    } else if (cal > 18.5 && cal < 25) {
+    } else if (cal > 18.5 && cal < 26) {
       return "Normal";
     } else {
       return "Underweight";
